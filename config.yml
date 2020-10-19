@@ -1,0 +1,18 @@
+title: How to install a node in Red-T Alastria network
+description: >-
+  Knowing step by step how to install a node in this Red-T network, asking for
+  permissioning and understanding the different file involved in this subject.
+template:
+  repo: how-to-install-a-node-in-red-t-alastria-network-template
+  name: how-to-install-a-node-in-red-t-alastria-network
+before:
+  - type: createIssue
+    title: Welcome!
+    body: new-issue.md
+steps:
+  - title: First step
+    description: The first step in your course
+    event: issues.assigned
+    link: '{{ repoUrl }}'
+    actions:
+      - type: closeIssue
